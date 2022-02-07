@@ -14,8 +14,11 @@ df_ab = pd.DataFrame({"a": [1,2,3], "b": [2,2,2]})
 df_ac = pd.DataFrame({"a": [1,2,3], "c": [3,3,3]})
 ```
 ... you can execute a SQL query joining them with:
+
+```
 q = "select ab.*, ac.c from df_ab ab left join df_ac ac on ab.a = ac.a"
 result = sql_on_dfs.execute(q)
+```
 
 test:
 ```
