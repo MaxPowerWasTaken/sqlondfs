@@ -1,3 +1,5 @@
+SQL On DFs - Easily execute an arbitrary SQL query on Pandas DataFrames
+
 Publishing this to PyPI to keep [this Stack Overflow answer](https://stackoverflow.com/a/70994925/1870832) handy for the future, and because I have some improvements planned. Namely:
 * more comprehensive testing
 * optional :in-memory: sqlite execution
